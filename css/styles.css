@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'Bariol-Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Bariol-Regular'), url('Bariol.woff') format('woff');
+}
+
 body, html {
   height: 100%;
 }
@@ -22,7 +29,7 @@ p {
 h1 {
   font-size: 40px;
   margin-bottom: 0;
-  font-family: 'Righteous', serif;
+  font-family: 'Bungee', serif;
 }
 h2 {
   font-size: 20px;
@@ -58,7 +65,8 @@ a:hover {
   -webkit-justify-content:space-between;
   justify-content: space-between;
   height: 100%;
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Bariol-Regular', serif;
+  text-transform: uppercase;
 }
 .logo {
   max-width: 100%;
