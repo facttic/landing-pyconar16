@@ -68,6 +68,10 @@ a:hover {
   font-family: 'Bariol-Regular', serif;
   /* text-transform: uppercase; */
 }
+.container div {
+  margin-right: 20px;
+  margin-left: 20px;
+}
 .logo {
   max-width: 100%;
 }
